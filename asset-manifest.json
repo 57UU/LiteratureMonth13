@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/LiteratureMonth13/static/css/main.d8a33c2d.css",
+    "main.js": "/LiteratureMonth13/static/js/main.8d6770d0.js",
+    "static/js/787.28cb0dcd.chunk.js": "/LiteratureMonth13/static/js/787.28cb0dcd.chunk.js",
+    "static/media/qrcode.bmp": "/LiteratureMonth13/static/media/qrcode.e5dd8e67017911394231.bmp",
+    "index.html": "/LiteratureMonth13/index.html",
+    "main.d8a33c2d.css.map": "/LiteratureMonth13/static/css/main.d8a33c2d.css.map",
+    "main.8d6770d0.js.map": "/LiteratureMonth13/static/js/main.8d6770d0.js.map",
+    "787.28cb0dcd.chunk.js.map": "/LiteratureMonth13/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d8a33c2d.css",
+    "static/js/main.8d6770d0.js"
+  ]
+}
