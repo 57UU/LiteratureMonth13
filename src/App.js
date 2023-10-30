@@ -15,7 +15,7 @@ function App() {
                   
                 </li>
                 <li>
-                  <p className='secondTitle'><font color="red">♥❤</font>乔治和杨星晨<font color="red">♡ღ</font> 一生一世的微信公众号</p>
+                  <p className='secondTitle'><font color="red"></font>乔治和杨星晨<font color="red"></font> 一生一世的微信公众号</p>
                 </li>
 
               </ul>
@@ -26,6 +26,7 @@ function App() {
             <br></br>
             <br></br>
             <br></br>
+            {ariticleCardLi("！？：", "https://mp.weixin.qq.com/s/RmDtPMuXCPVadDd-I0a0Hw")}
             {ariticleCardLi("敬我一次又一次的起死回生", "https://mp.weixin.qq.com/s/MRAqxIVSdDlXxmBs-2muDA")}
             {ariticleCardLi("吃火锅了吗您？", "https://mp.weixin.qq.com/s/AZFbFXuQMM7tPzOO809lMQ")}
             {ariticleCardLi("莫道桑榆晚，为霞尚满天", "https://mp.weixin.qq.com/s/s8YBsNPrqpK0LC7JcGJ5cA")}
