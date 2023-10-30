@@ -14,7 +14,8 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #00CA93;
+
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -32,7 +33,188 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.card {
+  /* 添加阴影以创建 "card" 效果 */
+  padding: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 40px;
+  /* 5px圆角 */
+}
+
+/* 鼠标悬停时，添加更深的阴影 */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.titleBox {
+  position: absolute;
+  text-align: left;
+  vertical-align: bottom;
+  padding: 0px 0px 0px 0px;
+  background-color: #6518AC;
+  /*background: linear-gradient(to right, red, yellow, rgb(58, 255, 51), rgb(32, 32, 255), pink);*/
+  min-width: 100vw;
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+  
+  top: 0;
+  left: 0;
+  z-index: 998;
+}
+.titleBox:hover .qrcode{
+  transition: 0.3s;
+  opacity:1;
+}
+.titleBox .qrcode{
+  transition: 0.3s;
+  opacity:0;
+  position: absolute;
+  top: -35px;
+  left: 300px;
+}
+
+.center {
+  width: 100%;
+  text-align: center;
+}
+
+.listview {
+  padding: 20px;
+  vertical-align: top;
+
+
+}
+
+.nav{
+  position: relative;
+
+}
+
+
+.nav ul {
+  list-style: none;
+}
+
+.nav li {
+  display: inline;
+  float: none;
+}
+
+
+
+.secondTitle {
+  position: absolute;
+  right: 0px;
+  bottom: -30px;
+  padding: 0px 100px 0px 0px;
+  vertical-align: bottom;
+  text-align: right;
+}
+
+.page {
+  list-style: none;
+}
+
+.page li {
+  display: inline;
+  float: none;
+}
+
+.thirdTitle {
+  background: linear-gradient(to right, pink, red, yellow, rgb(58, 255, 51), rgb(32, 32, 255));
+  position: fixed;
+  top: 55px;
+  right: 10px;
+  padding: 0px 0 0px 0px;
+  vertical-align: bottom;
+  text-align: right;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.articleCard {
+  margin: 0 40px 0 40px;
+
+
+  background:#3B08AE;
+
+}
+
+.articleCard {
+  /* 添加阴影以创建 "card" 效果 */
+position: relative;
+  padding: 20px 180px 60px 90px;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 40px;
+  /* 5px圆角 */
+}
+.articleCard h3{
+  /* 添加阴影以创建 "card" 效果 */
+padding: 0 20px 20px 0;
+transition: 0.3s;
+text-align: left;
+color: white;
+  /* 5px圆角 */
+}
+.articleCard:hover h3{
+  scale: 1.1;
+  transition: 0.3s;
+}
+/* 鼠标悬停时，添加更深的阴影 */
+.articleCard:hover {
+  background: #2E0098;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+}
+.articleCard:hover .array{
+  bottom: 10px;
+  right: 80px;
+  scale: 1.6;
+  transition: 0.3s;
+}
+.articleCard .array{
+  position: absolute;
+  transition: 0.3s;
+  scale: 1.5;
+  bottom: 10px;
+  right: 70px;
+}
+
+a:link {
+  text-decoration: none;
+  color: rgb(0, 0, 0)
+}
+a:active {
+  text-decoration: blink
+}
+
+a:visited {
+  text-decoration: none;
+  color: rgb(0, 0, 0)
+}
+.arrow {
+  border: solid rgb(255, 255, 255);
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+s
+.content{
+  
+  position: absolute;
+  top: 40px;
 }
