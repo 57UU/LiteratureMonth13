@@ -5,7 +5,6 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-
         <ul className="page">
           <li >
             {title(
@@ -60,9 +59,6 @@ function articleCard(title, link) {
       </div>
     </a>
   )
-
-
-
 
 }
 function Card(widget) {
