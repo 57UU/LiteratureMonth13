@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <header className="App-content">
         <ul className="page">
           <li >
             {title(
@@ -37,8 +37,6 @@ function App() {
             {ariticleCardLi("雨夜·漫游·狂想", "https://mp.weixin.qq.com/s/6sqdhrmclnXpY4qc7OKVQQ")}
             {ariticleCardLi("癸卯·十三月·启程", "https://mp.weixin.qq.com/s/6KfvhbH1ELGJWeJCSS2hUg")}
           </div>
-          
-
         </ul>
       </header>
     </div>
