@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/LiteratureMonth13/static/css/main.244448a6.css",
-    "main.js": "/LiteratureMonth13/static/js/main.5edfa31b.js",
+    "main.css": "/LiteratureMonth13/static/css/main.4cdc40aa.css",
+    "main.js": "/LiteratureMonth13/static/js/main.6d8fde49.js",
     "static/js/787.bcef5446.chunk.js": "/LiteratureMonth13/static/js/787.bcef5446.chunk.js",
     "static/media/qrcode.bmp": "/LiteratureMonth13/static/media/qrcode.e5dd8e67017911394231.bmp",
     "index.html": "/LiteratureMonth13/index.html",
-    "main.244448a6.css.map": "/LiteratureMonth13/static/css/main.244448a6.css.map",
-    "main.5edfa31b.js.map": "/LiteratureMonth13/static/js/main.5edfa31b.js.map",
+    "main.4cdc40aa.css.map": "/LiteratureMonth13/static/css/main.4cdc40aa.css.map",
+    "main.6d8fde49.js.map": "/LiteratureMonth13/static/js/main.6d8fde49.js.map",
     "787.bcef5446.chunk.js.map": "/LiteratureMonth13/static/js/787.bcef5446.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.244448a6.css",
-    "static/js/main.5edfa31b.js"
+    "static/css/main.4cdc40aa.css",
+    "static/js/main.6d8fde49.js"
   ]
 }
