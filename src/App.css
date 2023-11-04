@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #00CA93;
+  background-color: #1C1B1F;
 
   min-height: 100vh;
   display: flex;
@@ -59,7 +59,7 @@
   text-align: left;
   vertical-align: bottom;
   padding: 0px 0px 0px 0px;
-  background-color: #6518AC;
+  background-color: #241F2B;
   /*background: linear-gradient(to right, red, yellow, rgb(58, 255, 51), rgb(32, 32, 255), pink);*/
   min-width: 100vw;
   width: 100%;
@@ -145,7 +145,7 @@
   margin: 0 40px 0 40px;
 
 
-  background:#3B08AE;
+  background:#4A4458;
 
 }
 
@@ -172,7 +172,7 @@ color: white;
 }
 /* 鼠标悬停时，添加更深的阴影 */
 .articleCard:hover {
-  background: #2E0098;
+  background: #69588f;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
 }
 .articleCard:hover .array{
